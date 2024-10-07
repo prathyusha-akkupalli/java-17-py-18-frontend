@@ -1,0 +1,18 @@
+.container p{
+    color: blue;
+}
+.container>.child{
+             color: blueviolet;
+}
+h2+p{
+    color: red;
+}
+.far-sibling-example~.end{
+    color: chartreuse;
+}
+.container span{
+    background-color: yellow;
+}
+.container .special{
+    background-color: crimson;
+}
