@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <label>Usename*</label>
+            <br>
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <br>
+            <label >Pawword*</label>
+            <br>
+            <input type="password" name="password" readonly>
+        </fieldset>
+        <fieldset>
+            <legend>Gender*</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <input type="checkbox" id="Java">
+            <label for="Java">Java</label>
+            <input type="checkbox" id="c++">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="c#">
+            <label for="c#">C#</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fruit</legend>
+            <label>Choose a fruit:</label>
+            <select name="fruit">
+                <option>--select--</option>
+                <option>apple</option>
+                <option>banana</option>
+                <option>papaya</option>
+                <option>dragon fruit</option>
+            </select>
+        </fieldset>
+     
+            <textarea name="feedback" row="15" cols="50" placeholder="Enter your Feedback" style="resize: none;"></textarea>
+            <br>
+            <button type="send">SEND</button>
+            <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: aliceblue;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.textarea{
+    color: rgb(35, 1, 1);
+    background-color: rgb(253, 251, 254);
+    border-radius: 15px;
+}
+.submit{
+    padding: 8px;
+    border-radius: 5px;
+    border-color: 1px solid rgb(6, 14, 227);
+    background-color: rgb(205, 205, 207);
+    color: rgb(18, 0, 0);
+}
+.submit:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}

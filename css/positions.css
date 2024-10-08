@@ -1,0 +1,37 @@
+.fixed {
+    background-color: aqua;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky {
+    background-color: burlywood;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+.absolute1 {
+    background-color: aquamarine;
+
+    position: absolute;
+    top: 30px;
+}
+
+.relative {
+    height: 250px;
+    width: 300px;
+
+    border: solid;
+    position: relative;
+}
+
+.absolute2 {
+    background-color: chartreuse;
+
+    position: absolute;
+    left: 0;
+}

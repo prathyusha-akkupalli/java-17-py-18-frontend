@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="username">Username*</label><br>
+            <input type="text" name="username" /><br>
+            <label for="password">password*</label><br>
+            <input type="password" name="password" />
+        </fieldset>
+        <fieldset>
+            <legend>Gender*</legend>
+            <input type="radio" name="gender"  id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender"  id="male" value="male">
+            <label for="male">Male</label>
+        </fieldset>
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <input type="checkbox" name="skills"  id="java" value="java">
+            <label for="java">Java</label>
+            <input type="checkbox" name="skills"  id="c++" value="c++">
+            <label for="c++">C++</label>
+            <input type="checkbox" name="skills"  id="C#" value="C#">
+            <label for="C#">C#</label>
+            <input type="checkbox" name="skills"  id="python" value="python">
+            <label for="python">Python</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fruit</legend>
+            <label>Choose a Fruit</label>
+            <select>
+                <option value="banana">Banana</option>
+                <option value="Mango">Mango</option>
+                <option value="orange">Orange</option>
+                <option value="muskmelon">Musk Melon</option>
+            </select>
+        </fieldset><br>
+        <textarea rows="10" cols="100">Enter Your Comment Here</textarea><br><br>
+        <button type="submit">SEND</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>

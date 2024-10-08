@@ -1,0 +1,37 @@
+.box1{
+    display:inline-block;
+    border:1px solid grey;
+    width:700px;
+    height:250px;
+    padding:30px;
+    margin-bottom:0px;
+    font-size:40px;
+}
+.box2{
+    background-color:lightgray;
+    display:inline-block;
+    border:1px solid grey;
+    border-top:0px;
+    width:700px;
+    height:150px;
+    padding:30px;
+    margin-top:0px;
+    font-size:30px;
+}
+.image{
+    border:0 auto;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:-300px;
+    margin-left:550px;
+    
+}
+.image img{
+    padding:5%;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    background-color:white;
+    border:1px solid grey;
+}

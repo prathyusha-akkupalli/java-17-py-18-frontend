@@ -1,0 +1,29 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    size: 125%;
+}
+body{
+    background-color: rgb(213, 213, 213);
+    align-items: center;
+    display: flex;
+}
+#Registration_form{
+    border: 2px solid rgb(235, 233, 233);
+    padding: 25px;
+    margin-top:200px;
+    margin-left: 950px;
+    margin-right: 0;
+    box-shadow:2px;
+    border-radius: 15px;
+    background-color: rgb(249, 250, 251);
+}
+#Registration_form:hover{
+    background-color: rgb(41, 208, 166);
+}
+input[type=submit],[type=reset]{
+    color: white;
+    background-color: blue;
+    border-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}

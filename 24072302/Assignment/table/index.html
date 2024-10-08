@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>COLLEGE TIME TABLE</h1>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>8:30-9:30</th>
+                <th>9:30-10:30</th>
+                <th>10:30-11:30</th>
+                <th>11:30-12:30</th>
+                <th rowspan="6">12:30-2:00</th>
+                <th>2:00-3:00</th>
+                <th>3:00-4:00</th>
+                <th colspan="2">4:00-5:00</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>MONDAY</td>
+                <td>---</td>
+                <td>SUB1</td>
+                <td>SUB2</td>
+                <td>SUB3</td>
+                <td rowspan="6" id="lunch">L<br>U<br>N<br>C<br>H</td>
+                <td>SUB4</td>
+                <td>SUB5</td>
+                <td>COUNSELLING CLASS</td>
+            </tr>
+            <tr>
+                <td>TUESDAY</td>
+                <td>SUB1</td>
+                <td>SUB2</td>
+                <td>SUB3</td>
+                <td>---</td>
+                <td>SUB2</td>
+                <td>SUB2</td>
+                <td>LIBRARY</td>
+            </tr>
+            <tr>
+                <td>WEDNESDAY</td>
+                <td>SUB1</td>
+                <td>SUB2</td>
+                <td>SWA</td>
+                <td>---</td>
+                <td colspan="4">LAB</td>
+            </tr>
+            <tr>
+                <td>THURSDAY</td>
+                <td>SUB1</td>
+                <td>SUB2</td>
+                <td>SUB3</td>
+                <td>---</td>
+                <td>SUB2</td>
+                <td>SUB2</td>
+                <td>LIBRARY</td>
+            </tr>
+            <tr>
+                <td style="color:red;">FRIDAY</td>
+                <td>SUB1</td>
+                <td>SUB2</td>
+                <td>SUB3</td>
+                <td>---</td>
+                <td>SUB4</td>
+                <td>SUB5</td>
+                <td>LIBRARY</td>
+            </tr>
+            <tr>
+                <td>SATURDAY</td>
+                <td>SUB1</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SUB4</td>
+                <td>SUB5</td>
+                <td>LIBRARY</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        body{
+            size:125%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        table tr>th,td{
+            padding: 15px;
+        }
+        table tr>th,td{
+            border-bottom: 1px solid blue;
+        }
+        th,tr:nth-child(even){
+            background-color: rgb(7, 101, 19);
+            color: aliceblue;
+        }
+        tr:hover{
+            background-color: aqua;
+        }
+        table>thead>tr>th:hover{
+            background-color: aqua;
+        }
+        table>tbody>tr>td:hover{
+            background-color: aqua;
+        }
+        #lunch:hover{
+            background-color: aqua;
+        }
+    </style>
+</body>
+</html>

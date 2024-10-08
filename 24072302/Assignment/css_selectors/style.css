@@ -1,0 +1,48 @@
+/* Selectors:
+1)Universal Selector: */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    size: 125%;
+}
+/* 2)Element Selector: */
+body{
+    background-color: rgb(228, 227, 227);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* 3)class Selector (.): */
+.textfields{
+    border: 1px solid rgb(152, 147, 147);
+    border-radius: 10px;
+}
+.sign{
+    margin-left: 30px;
+}
+/* 4)ID Selector(#): */
+#login_form{
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(249, 250, 251);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right:10px;
+    margin-left: 700px;
+    box-shadow: inset;
+}
+#login_form:hover{
+    background-color: rgb(41, 208, 166);
+}
+/* 5)Attribute Selector: */
+input[type=submit],[type=reset]{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    border-color: rgba(11, 22, 238, 0.792)
+}
+input[type=submit]:hover,[type=reset]:hover{
+    color:black;
+    background-color: aliceblue;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./formstyle.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Registration form:</legend>
+        <form action="../css_selectors/index.html" method="get" novalidate autocomplete="on">
+            <h2>Gender</h2>
+            <p>Select Your Gender</p>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" required pattern[18-120] step="3"><br><br>
+            <label for="tel">Phone Number:</label>
+            <input type="tel" required pattern[0-9]{10}>
+            <h2>Skills: </h2>
+            <p>Choose Your Skills</p>
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="Java"><br><br>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="python"><br><br>
+            <label for="php">Php</label>
+            <input type="checkbox" id="php" name="php"><br><br>
+            <label for="html5">HTML5</label>
+            <input type="checkbox" id="html5" name="html5"><br><br>
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="css"><br><br>
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" id="Javascript" name="Javascript">
+            <h2>Operating System:</h2>
+            <p>Choose Operating System:</p>
+            <select name="os" id="os" class="submit">
+                <option value="windows 11" selected >Windows 11</option>
+                <option value="linux">Linux</option>
+                <option value="mac os">Mac Os</option>
+            </select><br><br>
+            <label for="range">English Fluency: </label>
+            0<input type="range" id="range" name="range" min="0" max="15">15<br><br>
+            <label for="url">Add Your LinkedIn Profile:</label>
+            <input type="url" id="url" name="url"><br><br>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" readonly><br><br>
+            <label for="hidden">Enter Your Passkey:</label>
+            <input type="hidden" id="hidden" name="hidden" value="this is hidden data">
+        <h2>Time Formats:</h2>
+        <label for="time">fill all time formats:</label><br><br>
+        <input type="date" id="time" name="date"><br><br>
+        <input type="datetime-local" id="time" name="datetime-local"><br><br>
+        <input type="time" id="time" name="time"><br><br>
+        disabled
+        <input type="week" id="time" name="week" disabled><br><br>
+        <input type="month" id="time" name="month"><br><br>
+        <h2>Browser Compatiblity:</h2>
+        <p>Select Your Compatible Browser:</p>
+        <input list="browsers">
+        <datalist id="browsers" >
+            <option value="Chrome Os">
+            <option value="Firefox">
+            <option value="Brave">
+        </datalist><br><br>
+
+        <label for="file">Upload Your Image:</label><br><br>
+        <input type="file"  name="file" required multiple class="submit"><br><br><br>
+
+        <label for="color">Select Your Favourate Color:</label>
+        <input type="color" name="color" ><br><br><br>
+        <label for="step">Salary</label>
+        <input type="number" id="step" name="step" step="3"><br><br><br>
+
+        <label for="textarea">Describe about yourself:</label><br><br>
+        <textarea name="textarea" id="textarea" class="textarea" rows="20" cols="50" autofocus placeholder="tell something about yourself"  <!-- or width and height and maxlength="" --></textarea><br><br>
+        <button class="submit" formaction formnovalidate formtarget="_self" formmethod="get" formenctype="multipart/form-data" >Submit</button>
+        <input class="submit" type="reset">
+        </form>
+    </fieldset>
+</body>
+</html>
